@@ -1,0 +1,34 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	width: 100%;
+	height: 300px;
+}
+
+.divider{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	width: 50%;
+	max-width: 100px;
+}
+
+.divider .divider-dash{
+	width: 45%;
+	height: 2px;
+	background-color: lightseagreen;
+}
+
+.divider .divider-icon{
+	color:lightseagreen;
+}
+
